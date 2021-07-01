@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 33" width="35" height="33">
+	<defs>
+		<image width="26" height="27" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbBAMAAACQOIJYAAAAAXNSR0IB2cksfwAAADBQTFRFAAAAAId4AId6AIh7AIh6AIl7AIh7AIl7AId7AId4AId4AIl6AIl6AId4AIh6AId77Ox0GQAAABB0Uk5TACJ3u93/zKpmETOZiETuVTdkUcoAAAEySURBVHicNZCxS8NQEMY/S6mmtTQILoogQtyEggYcHATpH5CkX1qMlII8xMGxg4t06SAoFKHiJAEXxy4d3JzchKA4SQQpAbVLl+7ei/Vb7n68d3ffHSBa2OLROaa6o9bDH2TI56V1NsYpDb7s8kr8yrqGgm8uShKfsS1kHSPT6AK33AdmkhBGZRWGGvny0ZX3joMPtlUbvW+hXLDMH0ya6PSFSmSti6yD1hjFC0UvAubrUIc26T/p6pILcriz0S1W4zgqemDq50Y7HU7pKuHephSjIjYySc1+lKkHuqfRCsy3XSEXVh/X1QhZMWk76DmGOpVZLvIso+DNBnqWhxylKLGbui0x8CRMaGqy3/kpYY4nmqykEerY4baJeyUraeVVekFZKVWpJTAK/89rvKxdpskv8wNbHTLZgSkAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="" href="#img1" transform="matrix(1,0,0,1,5,3)"/>
+</svg>
