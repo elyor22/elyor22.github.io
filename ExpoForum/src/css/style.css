@@ -1,0 +1,525 @@
+
+/* ====================== Main ========================== */
+main {
+  background: url(../img/bgc.png) no-repeat;
+  background-size: cover;
+}
+main .header {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 200px;
+}
+main .header .navbar button{
+  background-color: inherit;
+  border: none;
+  outline: none;
+  display: none;
+}
+main .header .navbar ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+}
+main .header .navbar ul a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 20px;
+}
+main .header .navbar a img {
+  width: 175px;
+  height: 24px;
+}
+main .header .navbar span {
+  cursor: pointer;
+}
+main .header .navbar span input {
+  display: none;
+  width: 160px;
+  height: 28px;
+  outline: none;
+  border-radius: 5px;
+}
+main .header .navbar span i {
+  font-size: 20px;
+  color: #fff;
+}
+main .header .navbar span select {
+  background-color: inherit;
+  border: none;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+main .header .navbar span option {
+  border-color: inherit;
+  color: black;
+}
+main .header .navbar .language {
+  margin-left: 20px;
+}
+main .content {
+  color: #fff;
+}
+main .content .container {
+  max-width: 1000px;
+}
+main .content .box {
+  display: flex;
+  justify-content: space-between;
+}
+main .content .box1 h1 {
+  font-weight: 700;
+  font-size: 56px;
+  font-family: sans-serif;
+}
+main .content .box1 p{
+  animation-delay: 300ms;
+}
+main .content a {
+  text-decoration: none;
+  color: white;
+}
+main .content .box2 a {
+  font-size: 12px;
+}
+main .content .box2 {
+  display: flex;
+  margin-bottom: 120px;
+}
+main .content .box2 .cr {
+  width: 250px;
+  height: 140px;
+  padding: 20px;
+}
+main .content .box2 .cards1 {
+  background-color: blue;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+main .content .box2 .cards2 {
+  background-color: yellow;
+}
+main .content .box2 .cards3 {
+  background-color: #30bcc9;
+  margin-bottom: 25px;
+}
+main .content .box2 .cards4 {
+  background-color: #f6404f;
+}
+
+/* ====================== Company ========================== */
+.company {
+  background-color: #2378fc;
+}
+.company .container {
+  max-width: 1000px;
+}
+.company .box {
+  display: flex;
+  padding-top: 75px;
+  margin-bottom: 75px;
+  color: #fff;
+}
+.company .box .box1{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.company .box h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.company .box p {
+  font-size: 13px;
+}
+.company .box p:hover {
+  color: yellow;
+}
+
+/* ====================== Plan ========================== */
+.plan {
+  background-color: #ffc41e;
+}
+.plan .container {
+  max-width: 1000px;
+  padding-top: 75px;
+}
+.plan .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+.plan .header h2 {
+  font-size: 30px;
+}
+.plan .header a {
+  font-size: 16px;
+  color: #000;
+}
+.plan .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.plan .content .cards {
+  width: 33.33333%;
+  padding: 15px;
+}
+.plan .content .cards img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.plan .content .cards span {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.plan .content .cards p {
+  font-size: 14px;
+}
+.plan .content .cards a {
+  font-size: 21px;
+  color: #f6404f;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.plan .content .cards a:hover {
+  color: #2378fc;
+}
+
+/* ====================== News ========================== */
+.news{
+  background-color: #FAF3E3;
+}
+.news .container {
+  max-width: 1000px;
+}
+.news .box {
+  display: flex;
+  padding-top: 60px;
+}
+.news .box .boxLeft {
+  width: 50%;
+  padding: 0 60px;
+}
+.news .box .boxLeft img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+}
+.news .box .boxRight {
+  padding: 0 60px;
+}
+.news .box .boxRight .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.news .box .boxRight .head h4 {
+  font-size: 22px;
+}
+.news .box .boxRight .head a {
+  font-size: 13px;
+  color: #000;
+}
+.news .box .boxRight .new .list img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+  margin-right: 25px;
+}
+.news .box .boxRight .new .list span {
+  font-size: 14px;
+  color: #f6404f;
+  line-height: 0;
+}
+.news .box .boxRight .new .list p {
+  display: inline;
+}
+.news .box .boxRight .new .list {
+  display: flex;
+}
+
+/* ====================== Footer ========================== */
+.footer{
+  background-color: #30bcc9;
+  color: #fff;
+}
+.footer .container{
+  max-width: 1000px;
+}
+.footer .box{
+  width: 33.3%;
+  margin-left: 80px;
+}
+.footer .box h4{
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.footer .foot{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding-top: 60px;
+}
+.footer .box{
+  width: 26%;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.footer .box p{
+  font-size: 12px;
+  line-height: 14px;
+}
+.footer .box p:hover{
+  color: #ffc41e;
+  cursor: pointer;
+}
+.footer .box .links{
+  display: flex;
+}
+.footer .box i{
+  font-size: 34px;
+  margin-left: 25px;
+  color: #fff;  
+}
+.footer .fa-youtube:hover{
+  color: red;
+}
+.footer .fa-vk:hover{
+  color: #448cf8;
+}
+.footer .fa-facebook-f:hover{
+  color: blue;
+}
+.footer .fa-instagram:hover{
+  color: #f6404f;
+}
+
+/* ====================== Media ========================== */
+@media(max-width:575px){
+  main{
+    background: gray;
+  }
+  main .header{
+    margin-bottom: 20px;
+  }
+  main .header .navbar{
+    display: flex;
+  }
+  main .header .navbar a img{
+    width: 90%;
+    height: auto;
+  }
+  main .header .navbar button{
+    display: inline-block;
+  }
+  main .header .navbar button i{
+    font-size: 26px;
+    margin-top: 5px;
+  }
+  main .header .navbar ul{
+    display: none;
+  }
+  main .header .navbar ul a{
+    font-size: 25px;
+  }
+  main .header .navbar .search{
+    display: none;
+  }
+  main .content .box{
+    display: block;
+  }
+  main .content .box2{
+    display: block;
+    text-align: center;
+  }
+  main .content .box2 .cr{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 25px;
+    padding-top: 40px;
+  }
+  main .content .box2 .cr p{
+    font-size: 29px;
+  }
+  main .content .box2 .cr span{
+    display: none;
+  }
+  main .content .box1{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  main .content .box1 h1{
+    font-size: 36px;
+  }
+  main .content .box1 p{
+    font-size: 20px;
+  }
+  main .content .box1 a{
+    font-size: 25px;
+    color: rgb(46, 46, 46);
+  }
+  .company .box{
+    display: block;
+    text-align: center;
+  }
+  .company .box .box1{
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .company .box .boxes{
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .plan .header{
+    display: block;
+    text-align: center;
+  }
+  .plan .content{
+    display: block;
+    text-align: center;
+  }
+  .plan .content .cards{
+    width: 90%;
+    margin: auto;
+  }
+  .news .box .boxLeft{
+    display: none;
+  }
+  .news .box .boxRight{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .news .box .boxRight img{
+    height: auto;
+  }
+  .news .box .boxRight p{
+    font-size: 14px;
+  }
+  .footer .foot{
+    text-align: center;
+  }
+  .footer .foot .foot1{
+    display: block;
+  }
+  .footer .foot .foot2{
+    display: block;
+  }
+  .footer .foot .box{
+    width: 90%;
+    margin: auto;
+    border-top: 1px solid #fff;
+    margin-bottom: 10px;
+    padding: 20px 0;
+  }
+  .footer .foot .box h4{
+    font-size: 30px;
+  }
+  .footer .foot .box p{
+    font-size: 18px;
+  }
+  .footer .foot .box .links{
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+}
+@media(min-width:576px) and (max-width:767px){
+  main .container{
+    max-width: 752px;
+  }
+  main .header{
+    margin-bottom: 20px;
+  }
+  main .header .navbar{
+    display: flex;
+  }
+  main .header .navbar a img{
+    width: 90%;
+    height: auto;
+  }
+  main .header .navbar button{
+    display: inline-block;
+  }
+  main .header .navbar button i{
+    font-size: 26px;
+    margin-top: 5px;
+    color: white;
+  }
+  main .header .navbar ul{
+    display: none;
+  }
+  main .header .navbar ul a{
+    font-size: 25px;
+  }
+  main .header .navbar .search{
+    display: none;
+  }
+  main .content .box{
+    display: block;
+  }
+  main .content .box2{
+    justify-content: center;
+  }
+  main .content .box1{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  main .content .box1 h1{
+    font-size: 36px;
+  }
+  main .content .box1 p{
+    font-size: 20px;
+  }
+  main .content .box2 .cr{
+    margin-bottom: 50px;
+  }
+  .company .box{
+    flex-direction: column;
+    margin: 0;
+  }
+  .company .box .box1{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .news .boxLeft{
+    display: none;
+  }
+  .footer .foot{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer .box{
+    margin-left: 0;  
+    width: 36%;
+  }
+}
+@media(min-width:768px) and (max-width:991px){
+  main .header{
+    margin-bottom: 80px;
+  }
+  main .header .navbar{
+    display: block;
+    text-align: center;
+  }
+  main .header .navbar a img{
+    margin-bottom: 20px;
+  }
+  main .header .navbar ul{
+    margin-bottom: 20px;
+  }
+  main .content .box{
+  flex-direction: column;
+  align-items: center;    
+  }
+  .news .box .boxLeft{
+    display: none;
+  }
+}
